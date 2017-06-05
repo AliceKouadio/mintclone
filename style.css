@@ -1,0 +1,447 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, appler, object, iframe,
+h1, h2, h3, h4, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kdb, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, 
+dl, dt, dd, ol, ul, li, 
+fildset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, rubuy, section, summary, 
+time, mark, audio, video{
+	
+}
+
+body {
+  font-family: "Circular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #000;
+  background-color: #fff;
+}
+
+/*header*/
+
+header{
+	width: 100%;
+	height: 700px;
+	background-image: url('../images/man-holding-mobile.jpg');
+	background-size: cover;
+}
+
+.top{
+	width: 960px;
+	height: 60px;
+}
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.contain{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+h1{
+	color:white;
+	text-align: center;
+}
+
+.contain p{
+	color: white;
+	text-align: center;
+}
+
+#mint_1{
+	width: 100%;
+	height: 400px;
+}
+
+.budget{
+	width: 250px;
+	height: 400px;
+	float: left;
+	margin-right: 70px;
+}
+
+h3, p{
+	text-align: center
+}
+
+.budget_img{
+	width:96px; 
+	height: 25px;
+	margin-left: 80px;
+}
+
+#mint_2{
+	width: 100%;
+	height: 400px;
+	background-color: #f2f2f2;
+	border: 20px;
+}
+
+.mint_2_text{
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-top: 50px;
+}
+
+.mint_2_img{
+	width: 400px;
+	height: 800px;
+	float: right;
+	margin-top: 50px;
+}
+
+#mint_3{
+	width: 100%;
+	height: 400px;
+}
+
+.mint_3_img{
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-right: 20px;
+}
+
+.mint_3_text{
+	width: 300px;
+	height: 400px;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.p_icon{
+	width: 700px;
+	height: 30px;
+	float: left;
+}
+
+.p_icon p{
+	margin-bottom: 25px; 
+}
+
+
+#mint_4{
+	width: 100%;
+	height: 400px;
+	background-color: #f2f2f2;
+	border: 20px;
+}
+
+.mint_4_text{
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-top: 50px;
+}
+
+.mint_4_img{
+	width: 500px;
+	height: 800px;
+	float: right;
+	margin-top: 50px;
+}
+
+.btn-primary{
+	background-color: #1abc9c;
+	border-color: #1abc9c;
+}
+
+
+
+.lien-bouton {
+  background: white;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: .8em 1.2em;
+  border-radius: .5em;
+  display: inline-block;
+  border: #D9D9DE;
+}
+/*some padding for feature images*/
+
+.feature img{
+	margin-bottom: 2em;
+}
+
+.feature{
+	color: #444444;
+	font-weight: 300;
+	letter-spacing: 1px;   
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu .categorie {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.menu .categorie ul {
+	display: none;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.menu .categorie:hover ul {
+	display: block;
+}
+
+.menu h6,
+.menu a {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0 0 17px;
+  display: inline;
+  margin: 0 15px;
+  border: 0;
+  line-height: normal;
+  font-size: 12px;
+  margin: 0 12px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.menu .categorie:hover h5 {
+	color: black;
+}
+
+.menu a:hover {
+	color: black;
+}
+
+h1{
+	color:white;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+h2{ 
+  text-align: center;
+  margin-top: 21px;
+  margin-bottom: 10.5px;
+  font-family: inherit;
+  font-weight: 800;
+  line-height: 1.1;
+  color: inherit;
+  font-size: 32px;
+}
+
+.img {
+display:block;
+}
+col-md-6 ul, col-md-6 li, {
+	color: black;
+	text-align: center;
+}
+.img-centre{
+	display: center;
+	width: 45%;
+	float: right;
+	margin-right: 80px;
+}
+
+.mobile-app {
+  height: 236px;
+  text-align: center;
+  background: rgb(3, 3, 3);
+}
+
+.icn-app-store {
+  background-position: 0px -52px;
+  height: 42px;
+  width: 130px;
+}
+h4 {
+	color: white;
+	text-align: center;
+  display: block;
+  -webkit-margin-before: 1.33em;
+  -webkit-margin-after: 1.33em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+
+.slide-title {
+    font-size: 40px;
+    font-weight: 900;
+    max-width: 334px;
+    margin: 0 auto;
+}
+
+.back{
+	background-color: #649092;
+	width: 100%;
+	height: 700px;
+}
+#head{
+	width: 100%;
+	height: 400px;
+}
+/*footer*/
+
+.btn-transparent {
+  font-weight: 100;
+  border: 1px solid rgba(255,255,255,0.3);
+  text-transform: capitalize;
+  width: 211px;
+  background-color: transparent;
+  margin-bottom: 10.5px;
+}
+
+h3{
+	margin-top: 21px;
+    margin-bottom: 10.5px;
+	font-family: inherit;
+    font-weight: 800;
+    line-height: 1.1;
+    color: inherit;
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.social-links{
+	text-align: center;
+}
+
+.site-footer{
+  text-align: center;
+  background-color: rgb(3, 3, 3);
+  color: rgb(255, 255, 255);
+  padding-top: 67px;
+  padding-bottom: 37px;
+  border-top: 1px solid rgb(51, 51, 51);
+}
+.container{
+	max-width: 970px;
+	width: 1170px;
+	margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.site-footer a:not(.blue-link) {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(255, 255, 255);
+}
+
+.site-footer .social-links a {
+  margin: 10px 0px;
+}
+
+.icn-facebook {
+  background-position: 0px -2337px;
+  height: 19px;
+  width: 11px;
+}
+
+.icn-twitter {
+  background-position: 0px -5287px;
+  height: 20px;
+  width: 23px;
+}
+
+.icn-instagram {
+  background-position: 0px -2573px;
+  height: 20px;
+  width: 23px;
+}
+
+.icn-rss {
+  background-position: 0px -5059px;
+  height: 20px;
+  width: 18px;
+}
+
+.icn-logo-intuit {
+  background-position: 0px -2866px;
+  height: 25px;
+  width: 85px;
+}
+
+.icn {
+  background: url(https://www.mint.com/sites/all/themes/custom/mint_2014/img/icons/normal-sce69ed9a1a.png);
+  display: inline-block;
+}
+
+.site-footer .social-link::after {
+  content: '';
+  display: inline-block;
+  height: 13px;
+  width: 1px;
+  margin: 0px 19px;
+  border-right: 1px solid rgb(72, 72, 72);
+  position: relative;
+  top: -3px;
+}
+
+.logo{
+	text-align: center;
+}
+
+
+.site-footer .menu-primary a {
+  margin: 15px 3px;
+  font-weight: 500;
+}
+
+.site-footer .footer-primary-menu {
+  text-align: center;
+  margin: 0px;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 11px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+.site-footer .footer-secondary-menu {
+  text-align: center;
+  margin: 0px;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 11px;
+}
+.site-footer .menu-secondary a {
+  font-weight: 500;
+  padding-right: 5px;
+  white-space: nowrap;
+}
+
+ul.inline li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 .5em;
+}
+
+.site-footer .copyright p {
+	color: white;
+  -webkit-font-smoothing: antialiased;
+  font-size: 11px;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0px;
+}
